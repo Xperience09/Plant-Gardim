@@ -1,0 +1,53 @@
+img{
+    height: auto;
+    width: auto;
+}
+.home-txt{
+    color: white;
+    background-color: rgb(69, 131, 26);
+}
+
+h1{
+    font-size: 60px;
+
+}
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .row.no-gutters [class^="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .home-btn{
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  .para1{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  .para2{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .top-margin{
+    margin-top: 70px;
+  }
+ .side-margin{
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+.card-img-top{
+    height: 400px;
+}
+
