@@ -1,9 +1,9 @@
 
-<nav class="navbar navbar-dark bg-white mb-5 sticky-top">
+<nav class="navbar navbar-dark bg-white mb-5 sticky-top"  *ngIf="showNavbar">
   <div class="container">
     <ul class="nav nav-pills">
       <li class="nav-item">
-        <a class="nav-link"  routerLink="/Home"><img [src]="logoBlack" height="70px" width="100px"></a>
+        <a class="nav-link"  routerLink="/Home"><img [src]="logoBlack" height="50px" width="90px"></a>
       </li>
 
       <li class="nav-item">
@@ -18,11 +18,13 @@
         <a class="nav-link" routerLink="/PlantsCare">Plants Care</a>
       </li>
 
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" routerLink="/LogIn">Log In</a>
-      </li>
+      </li> -->
 
     </ul>
+
+    <button class="btn btn-outline-success" type="submit" routerLink="/LogIn">Log Out</button>
 
   </div>
 </nav>

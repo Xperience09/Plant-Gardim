@@ -7,7 +7,8 @@ import { PlantsCareComponent } from './plants-care/plants-care.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  {path:"",component:HomeComponent},
+  // path:"" -> loads the log in page first when the site is loaded
+  {path:"",component:LogInComponent},
   {path:"Home",component:HomeComponent},
   {path:"Plants",component:PlantsComponent},
   {path:"Pots",component:PotsComponent},

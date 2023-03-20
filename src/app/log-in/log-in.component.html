@@ -1,1 +1,35 @@
-<p>log-in works!</p>
+
+<div class="row top-margin">
+    <div class="col-md-1"></div>
+    <div class="col-md-10" align="center" style="background-color: rgb(241,247,242);">
+
+        <div *ngIf="showLoginForm">
+            <h1 class="top-margin">Log In</h1>
+            <form>
+                <input type="text" placeholder="Username" name="username" class="rectangular-type top-margin" [(ngModel)]="username"><br>
+                <input type="password" placeholder="Password" class="rectangular-type" name="password" [(ngModel)]="password"><br>
+                <button class="btn btn-dark text-light rectangular-type" style="color: white;" (click)="login()">Log In</button>
+            </form>
+            <p class="top-margin" style="padding-bottom: 50px;">
+                <small>Default username & password: admin</small><br>
+                <a (click)="showRegistration()">Sign Up</a>
+                if you don't have an account
+            </p>
+        </div>
+        <div *ngIf="showRegistrationForm">
+            <h1 class="top-margin">Registration</h1>
+            <form>
+            <input type="text" placeholder="Username" name="username" class="rectangular-type top-margin" [(ngModel)]="username"><br>
+            <input type="password" placeholder="Password" class="rectangular-type" name="password" [(ngModel)]="password"><br>
+            <button class="btn btn-dark text-light rectangular-type" style="color: white;" (click)="register()" >Sign Up</button><br>
+            <button class="btn btn-light" (click)="showLogin()">Back to login</button>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+  
+
+
+
+

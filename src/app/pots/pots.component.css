@@ -10,3 +10,7 @@ small{
  .top-margin{
     margin-top: 180px;
  }
+ .card:hover {
+   /* zoom in by increasing the scale */
+   transform: scale(1.05);
+ }

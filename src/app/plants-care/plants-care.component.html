@@ -1,30 +1,166 @@
+<div class="row no-gutters">
+    <div class="col-md-1"></div>
+    <div class="col-md-6">
+        <ngb-carousel *ngIf="images">
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1607163365613-c281acde5012?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBsYW50JTIwY2FyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="Random first slide" />
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://plus.unsplash.com/premium_photo-1664197864634-ccf305ce1f3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBsYW50JTIwY2FyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="Random second slide" />
+                </div>
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1530205094286-54cb7684e488?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBsYW50JTIwY2FyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="Random third slide" />
+                </div>
+            </ng-template>
 
-<ngb-carousel *ngIf="images">
-	<ng-template ngbSlide>
-		<div class="picsum-img-wrapper">
-			<img [src]="images[0]" alt="Random first slide" />
-		</div>
-		<div class="carousel-caption">
-			<h3>First slide label</h3>
-			<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-		</div>
-	</ng-template>
-	<ng-template ngbSlide>
-		<div class="picsum-img-wrapper">
-			<img [src]="images[1]" alt="Random second slide" />
-		</div>
-		<div class="carousel-caption">
-			<h3>Second slide label</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</div>
-	</ng-template>
-	<ng-template ngbSlide>
-		<div class="picsum-img-wrapper">
-			<img [src]="images[2]" alt="Random third slide" />
-		</div>
-		<div class="carousel-caption">
-			<h3>Third slide label</h3>
-			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-		</div>
-	</ng-template>
-</ngb-carousel>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1524636090643-f30248a74e16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGxhbnQlMjBjYXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Random third slide" />
+                </div>
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1668062285858-2212ee50afbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBsYW50JTIwY2FyZSUyMHBvdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="Random third slide" />
+                </div>
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1676170119964-49af9bce969f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBsYW50JTIwY2FyZSUyMHBvdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="Random third slide" />
+                </div>
+            </ng-template>
+
+        </ngb-carousel>
+    </div>
+    <div class="col-md-4 green-back d-flex justify-content-center align-items-center flex-column">
+        <h1 class="para1">Make Plant Care Easy</h1>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+
+<div class="row top-margin">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <h1 align="center">Free Courses</h1>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+
+
+<!-- indoor plants -->
+<div class="row top-margin">
+    <div class="col-md-1"></div>
+    <div class="col-md-10" style="background-color: rgb(241,247,242);">
+        
+
+        <div class="row top-margin">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h2 align="center">Indoor Plants</h2>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row top-margin">
+            <div class="col-md-3"></div>
+            <div class="col-md-4">
+                <p class="mb-1">Picking the right plant</p>
+                <p class="mb-1">Watering</p>
+                <p class="mb-1">Light</p>
+                <p class="mb-1">Safety around pets</p>
+                <p class="mb-1">Cleaning your plant</p>
+                <p class="mb-1">Plants and humidity</p>
+                <button class="btn btn-green">View Course</button>
+            </div>
+
+            <div class="col-md-4">
+                <p class="mb-1">Choosing the right soild</p>
+                <p class="mb-1">Pruning</p>
+                <p class="mb-1">Bugs</p>
+                <p class="mb-1">Winter plant care</p>
+                <p class="mb-1">Dropping leaves</p>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+
+
+
+<!-- outdoor plants -->
+<div class="row top-margin">
+    <div class="col-md-1"></div>
+    <div class="col-md-10" style="background-color: rgb(253,247,247);">
+        
+
+        <div class="row top-margin">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h2 align="center">Outdoor Plants</h2>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row top-margin">
+            <div class="col-md-3"></div>
+            <div class="col-md-4">
+                <p class="mb-1">Picking the right outdoor plant</p>
+                <p class="mb-1">Container</p>
+                <p class="mb-1">How to pot up plants</p>
+                <p class="mb-1">Light</p>
+                <p class="mb-1">Water</p>
+                <p class="mb-1">Extreme weather</p>
+                <p class="mb-1">Fertilizers</p>
+                <button class="btn btn-green">View Course</button>
+            </div>
+
+            <div class="col-md-4">
+                <p class="mb-1">Weeding and pruning</p>
+                <p class="mb-1">Pets and Wildlife</p>
+                <p class="mb-1">Bugs</p>
+                <p class="mb-1">Going on Holiday</p>
+                <p class="mb-1">Growing herbs</p>
+                <p class="mb-1">Growing from seed</p>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+
+
+
+
+<div class="row top-margin">
+    <div class="col-md-2"></div>
+    <div class="col-md-2">
+        <h3><b>HELP</b></h3>
+        <p class="mb-1">Need to get in touch?</p>
+        <p class="mb-1">Just use help widget to send a message to the team</p>
+        <p class="mb-1">Customer service opening hours:</p>
+        <p class="mb-1">Tuesday to Saturday 10am-8pm</p>
+        <p class="mb-1" style="color: rgb(69, 131, 26);"> Call us at: +91 9876543210</p>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-2">
+        <h3><b>SECURITY</b></h3>
+        <p>Secure payment - out systems are protected with bank-grade security. Your payment is safe with us.</p>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-2">
+        <h3><b>QUALITY</b></h3>
+        <p>We work directly with over 40 specialist growers to bring you the best quality plats</p>
+    </div>
+    <div class="col-md-1"></div>
+</div>
